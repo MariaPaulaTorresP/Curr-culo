@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #c96b8d; 
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sidebar .perfil img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid rgba(255, 209, 220, 0.7);
+}
+
+.sidebar h1 {
+    margin: 10px 0 5px;
+    font-size: 1.5em; 
+    font-weight: 700; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar h2 {
+    margin: 5px 0 20px;
+    font-weight: 400;
+    font-size: 1em; 
+    color: black; 
+}
+
+.sidebar .contatos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar .contatos p {
+    margin: 10px 0;
+}
+
+.sidebar .links-apps {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sidebar .links-apps p {
+    margin: 10px 0;
+}
+
+.sidebar .links-apps a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar .links-apps .social-logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.conteúdo-principal {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+h2 {
+    color: #c96b8d;
+    border-bottom: 2px solid #c96b8d;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 209, 220, 0.7);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.educação-item, .idiomas-item {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #c96b8d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
